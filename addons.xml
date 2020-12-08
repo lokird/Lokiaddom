@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="teste.repo" name="Repositório Teste" version="1.0.0" provider-name="Maximus">
+<addon id="plugin.video.maximus" name="[COLOR white][B]Maximus[/B][/COLOR]" version="1.0.0" provider-name="[B][COLOR gold]Maximus[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="Repositório Maximus">
 		<info compressed="false">https://raw.githubusercontent.com/lokird/Lokiaddom/main/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/lokird/Lokiaddom/main/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/zoreu/meuaddon/master/zip/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repositório Teste</summary>
-		<description>Repositório Teste para Kodi</description>
+		<summary>Repositório Maximus</summary>
+		<description>Repositório Maximus para Kodi</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="plugin.video.testando"
-       name="Teste"
+<addon id="plugin.video.maximus"
+       name="Maximus"
        version="1.0.0"
-       provider-name="nome do criador">
+       provider-name="Maximus">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -38,7 +38,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
- <extension point="xbmc.addon.repository" name="Repositório Teste">
+ <extension point="xbmc.addon.repository" name="Repositório Maximus">
 	<info compressed="false">http://raw.github.com/zoreu/meuaddon/master/addons.xml</info>
 	<checksum>http://raw.github.com/zoreu/meuaddon/master/addons.xml.md5</checksum>
 	<datadir zip="true">http://raw.github.com/zoreu/meuaddon/master/zip/</datadir>
